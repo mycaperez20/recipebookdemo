@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.myca.recipebook.model.Dish;
-import com.myca.recipebook.model.Ingredients;
 import com.myca.recipebook.repository.DishRepository;
 import com.myca.recipebook.repository.IngredientsRepository;
 

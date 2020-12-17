@@ -15,15 +15,12 @@ import com.myca.recipebook.dto.IngredientsDto;
 import com.myca.recipebook.mapper.IngredientsConverter;
 import com.myca.recipebook.mapper.IngredientsDtoConverter;
 import com.myca.recipebook.model.Ingredients;
-import com.myca.recipebook.service.DishService;
 import com.myca.recipebook.service.IngredientsService;
 
 @RestController
 @RequestMapping(value="/ingredient")
 public class IngredientsController {
 
-	@Autowired
-	private DishService dishService;
 	
 	@Autowired
 	private IngredientsService ingredientsService;

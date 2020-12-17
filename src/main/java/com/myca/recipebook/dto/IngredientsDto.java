@@ -1,6 +1,5 @@
 package com.myca.recipebook.dto;
 
-import com.myca.recipebook.model.Dish;
 
 public class IngredientsDto {
 	
